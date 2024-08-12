@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processor Details</title>
+    <link rel="stylesheet" href="processor.css">
+</head>
+<body>
+    <header>
+        <h1>Processor Details</h1>
+    </header>
+    <main>
+        <section id="processor-details">
+            <h2><center>processor Information</center></h2>
+            
+            <form id="processor-form">
+                <label for="name">Company Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="location">Product Details</label>
+                <select id="category" name="category">
+                   <option value="seed"></option>
+                   <option value="seed">Seed</option>
+                   <option value="vegetable">Vegetable</option>
+                   <option value="fruit">Fruit</option>
+              </select>
+
+                <label for="capacity">Processing Capacity:</label>
+                <input type="number" id="capacity" name="capacity" required>
+
+                <label for="location">Company Location:</label>
+                <input type="text" id="location" name="location" required>
+
+                
+
+                <label for="contact">Contact No:</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <button type="button" onclick="submitProcessorDetails()">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <script src="processor.js"></script>
+</body>
+</html>

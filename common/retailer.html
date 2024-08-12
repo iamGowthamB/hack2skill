@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retailer Details</title>
+    <link rel="stylesheet" href="retailer.css">
+</head>
+<body>
+    <header>
+        <h1>Retailer Details</h1>
+    </header>
+    <main>
+        <section id="retailer-details">
+            <h2><center>Retailer Information</center></h2>
+            <form id="retailer-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="store">Store Name:</label>
+                <input type="text" id="store" name="store" required>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <button type="button" onclick="submitRetailerDetails()">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <script src="retailer.js"></script>
+</body>
+</html>
