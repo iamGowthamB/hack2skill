@@ -20,23 +20,31 @@
                 </label>
                 <input type="text" id="name" name="name" required>
 
-                <label for="farm">
-                    Farm Name:
-                    
-                </label>
+                <label for="farm">Phone Number:</label>
                 <input type="text" id="farm" name="farm" required>
 
-                <label for="location">
-                    Location:
-                    
-                </label>
-                <input type="text" id="location" name="location" required>
+                <label for="farm">Email:</label>
+                <input type="email" id="farm" name="farm" required>
 
-                <label for="contact">
-                    Contact:
-                    
-                </label>
-                <input type="text" id="contact" name="contact" required>
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="seed">Seed</option>
+                    <option value="vegetable">Vegetable</option>
+                    <option value="fruit">Fruit</option>
+                </select>
+
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price">
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity">
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+                
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+        
 
                 <button type="button" onclick="submitFarmerDetails()">Submit</button>
             </form>
